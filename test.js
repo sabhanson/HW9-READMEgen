@@ -22,7 +22,7 @@
 // THEN a high-quality, professional README.md is generated with the title of my project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
 //TODO: fs.writeFile ('README.md', etc, etc)
 //TODO:
-    //include a TITLE
+    //include a TITLE 
     //include a DESCRIPTION
     //include a TABLE OF CONTENTS
     //include a INSTALLATION
