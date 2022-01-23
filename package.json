@@ -1,0 +1,23 @@
+{
+  "name": "hw9-readmegen",
+  "version": "1.0.0",
+  "description": "## HOMEWORK GUIDE",
+  "main": "test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sabhanson/HW9-READMEgen.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sabhanson/HW9-READMEgen/issues"
+  },
+  "homepage": "https://github.com/sabhanson/HW9-READMEgen#readme",
+  "dependencies": {
+    "inquirer": "^8.2.0"
+  }
+}
