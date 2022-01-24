@@ -45,9 +45,48 @@ const fs = require('fs');
         message: 'How would someone contact you for questions?',
         name: 'questions'
       },
-    ]);
+    ])
+    .then((response)=> {
+      const genREADME =
+`
+# ${response.title}
 
+## ${response.description}
 
-const genREADME = ({title, description, installation, usage, license, contributing, tests, questions}) =>
-`WRITE THE README MARKDOWN HERE`
+## Table of Contents
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [Questions](#questions)
+- [Contact](#contact)
+
+## Installation
+${response.installation}
+
+## Usage
+${response.usage}
+
+## License
+${response.license}
+
+## Contributing
+${response.contributing}
+
+## Tests
+${response.tests}
+
+## Questions
+${response.questions}
+${response.github} must be a link to the users account
+
+## Contact
+${response.email} must open the user's email app 'mailto:'
+`;
+
+fs.writeFile('README1.md', genREADME, (err) =>
+err? console.error(err): console.log('new README generated')
+);
     
+  })
