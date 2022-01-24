@@ -26,7 +26,7 @@ inquirer
     {
       type: "list",
       message: "What license should this README have?",
-      choices: ["[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)\n", "[![License: WTFPL](https://img.shields.io/badge/License-WTFPL-brightgreen.svg)](http://www.wtfpl.net/about/)\n", "3"],
+      choices: ["[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)", "[![License: WTFPL](https://img.shields.io/badge/License-WTFPL-brightgreen.svg)](http://www.wtfpl.net/about/)", ""],
       name: "license",
     },
     {
@@ -77,7 +77,7 @@ ${response.installation}
 ${response.usage}
 
 ## License
-${response.license}
+${response.lic}
 
 ## Contributing
 ${response.contributing}
@@ -94,4 +94,20 @@ ${response.questions}
     fs.writeFile("README1.md", genREADME, (err) =>
       err ? console.error(err) : console.log("new README generated")
     );
+    
+    
   });
+
+
+
+
+
+  // function license(response) {
+  //   if (response.license === 0) {
+  //     response.lic = "you chose MIT license"
+  //   } else if (response.license === 1) {
+  //     response.lic = "you chose WTFPL license"
+  //   } else {
+  //     response.lic = "you chose "
+  //   }
+  // }
