@@ -56,7 +56,8 @@ const fs = require('fs');
 `
 # ${response.title}
 
-## ${response.description}
+## Description
+${response.description}
 
 ## Table of Contents
 - [Installation](#installation)
@@ -85,6 +86,7 @@ ${response.tests}
 ## Questions
 ${response.questions}
 [visit my Github profile](https://www.github.com/${response.github})
+<a href="https://www.github.com/${response.github}" target = "_blank"> visit my Github profile </a>
 
 ## Contact
 ${response.email} must open the user's email app 'mailto:'
