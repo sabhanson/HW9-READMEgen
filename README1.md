@@ -1,7 +1,7 @@
 
-# title
+# brass monkey
 
-## hello
+## horn noises
 
 ## Table of Contents
 - [Installation](#installation)
@@ -13,23 +13,23 @@
 - [Contact](#contact)
 
 ## Installation
-install it
+that funky monkey
 
 ## Usage
-dont use it
+brass monkey
 
 ## License
-1
+1,2
 
 ## Contributing
-dont
+brass mok
 
 ## Tests
-nothing
+that junky monky
 
 ## Questions
-sab
-undefined must be a link to the users account
+no
+[visit my Github profile](https://www.github.com/sabhanson)
 
 ## Contact
 undefined must open the user's email app 'mailto:'

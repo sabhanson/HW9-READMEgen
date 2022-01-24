@@ -45,6 +45,11 @@ const fs = require('fs');
         message: 'How would someone contact you for questions?',
         name: 'questions'
       },
+      {
+        type: 'input',
+        message: 'What is your Github username?',
+        name: 'github'
+      },
     ])
     .then((response)=> {
       const genREADME =
@@ -79,7 +84,7 @@ ${response.tests}
 
 ## Questions
 ${response.questions}
-${response.github} must be a link to the users account
+[visit my Github profile](https://www.github.com/${response.github})
 
 ## Contact
 ${response.email} must open the user's email app 'mailto:'
