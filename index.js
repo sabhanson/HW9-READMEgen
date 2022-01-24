@@ -1,64 +1,62 @@
 const inquirer = require("inquirer");
-const fs = require('fs');
+const fs = require("fs");
 
-
-
-    inquirer.prompt ([
-      {
-        type: 'input',
-        message: 'What is your README title?',
-        name: 'title'
-      },
-      {
-        type: 'input',
-        message: 'Write your README description here',
-        name: 'description'
-      },
-      {
-        type: 'input',
-        message: 'Write your Installation instructions here',
-        name: 'installation'
-      },
-      {
-        type: 'input',
-        message: 'Write your Usage instructions here',
-        name: 'usage'
-      },
-      {
-        type: 'checkbox',
-        message: 'What license should this README have?',
-        choices: [ '1', '2', '3'],
-        name: 'license'
-      },
-      {
-        type: 'input',
-        message: 'What are your Contribution instructions?',
-        name: 'contributing'
-      },
-      {
-        type: 'input',
-        message: 'What should your Tests section say?',
-        name: 'tests'
-      },
-      {
-        type: 'input',
-        message: 'How would someone contact you for questions?',
-        name: 'questions'
-      },
-      {
-        type: 'input',
-        message: 'What is your Github username?',
-        name: 'github'
-      },
-      {
-        type: 'input',
-        message: 'what is your email address?',
-        name: "email"
-      }
-    ])
-    .then((response)=> {
-      const genREADME =
-`
+inquirer
+  .prompt([
+    {
+      type: "input",
+      message: "What is the title for your README?",
+      name: "title",
+    },
+    {
+      type: "input",
+      message: "Write your Description here",
+      name: "description",
+    },
+    {
+      type: "input",
+      message: "Write your Installation instructions here",
+      name: "installation",
+    },
+    {
+      type: "input",
+      message: "Write your Usage instructions here",
+      name: "usage",
+    },
+    {
+      type: "checkbox",
+      message: "What license should this README have?",
+      choices: ["1", "2", "3"],
+      name: "license",
+    },
+    {
+      type: "input",
+      message: "What are your Contribution instructions?",
+      name: "contributing",
+    },
+    {
+      type: "input",
+      message: "What should your Tests section say?",
+      name: "tests",
+    },
+    {
+      type: "input",
+      message: "How do you prefer to be contacted for questions?",
+      name: "questions",
+    },
+    {
+      type: "input",
+      message: "What is your Github username?",
+      name: "github",
+    },
+    {
+      type: "input",
+      message: "What is your email address?",
+      name: "email",
+    },
+  ])
+  .then((response) => {
+    const genREADME = `
 # ${response.title}
 
 ## Description
@@ -90,15 +88,11 @@ ${response.tests}
 
 ## Questions
 ${response.questions}
-[visit my Github profile](https://www.github.com/${response.github})
-<a href="https://www.github.com/${response.github}" target = "_blank"> visit my Github profile </a>
-
-## Contact
+[Github profile](https://www.github.com/${response.github})
 [Email Me](mailto:${response.email})
 `;
 
-fs.writeFile('README1.md', genREADME, (err) =>
-err? console.error(err): console.log('new README generated')
-);
-    
-  })
+    fs.writeFile("README1.md", genREADME, (err) =>
+      err ? console.error(err) : console.log("new README generated")
+    );
+  });

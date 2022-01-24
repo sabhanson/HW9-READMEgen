@@ -1,8 +1,8 @@
 
-# 1
+# This is my title
 
 ## Description
-2
+lorem lorem lorem lorem
 
 ## Table of Contents
 - [Installation](#installation)
@@ -14,24 +14,21 @@
 - [Contact](#contact)
 
 ## Installation
-3
+to install, yadadadada
 
 ## Usage
-4
+use it whenever
 
 ## License
 1
 
 ## Contributing
-4
+dont contribute
 
 ## Tests
-4
+i did a lot of testing in the integrated terminal
 
 ## Questions
-email or gitt
-[visit my Github profile](https://www.github.com/sabhanson)
-<a href="https://www.github.com/sabhanson" target = "_blank"> visit my Github profile </a>
-
-## Contact
+github or email
+[Github profile](https://www.github.com/sabhanson)
 [Email Me](mailto:sabhanson7@gmail.com)
