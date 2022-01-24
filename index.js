@@ -87,8 +87,8 @@ ${response.contributing}
 ${response.tests}
 
 ## Questions
-${response.questions}
-[Github profile](https://www.github.com/${response.github})
+${response.questions}  
+[Github profile](https://www.github.com/${response.github})  
 [Email Me](mailto:${response.email})
 `;
 
