@@ -77,7 +77,7 @@ ${response.installation}
 ${response.usage}
 
 ## License
-${response.lic}
+${licenseDescription}
 
 ## Contributing
 ${response.contributing}
@@ -102,12 +102,12 @@ ${response.questions}
 
 
 
-  // function license(response) {
-  //   if (response.license === 0) {
-  //     response.lic = "you chose MIT license"
-  //   } else if (response.license === 1) {
-  //     response.lic = "you chose WTFPL license"
-  //   } else {
-  //     response.lic = "you chose "
-  //   }
-  // }
+  function license(response) {
+    if (response.license === 0) {
+      licenseDescription = "you chose MIT license"
+    } else if (response.license === 1) {
+      licenseDescription = "you chose WTFPL license"
+    } else {
+      licenseDescription = "you chose "
+    }
+  }
