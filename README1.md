@@ -1,5 +1,6 @@
 
-# a
+# a [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 
 ## Description
 s
@@ -13,23 +14,22 @@ s
 - [Questions](#questions)
 
 ## Installation
-a
+d
 
 ## Usage
-s
+f
 
 ## License
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-,[![License: WTFPL](https://img.shields.io/badge/License-WTFPL-brightgreen.svg)](http://www.wtfpl.net/about/)
-,3
+
 
 ## Contributing
 s
 
 ## Tests
-s
+d
 
 ## Questions
 s  
-[Github profile](https://www.github.com/s)  
-[Email Me](mailto:s)
+[Github profile](https://www.github.com/sabhanson)  
+[Email Me](mailto:sabhanson7@gmail.com)
