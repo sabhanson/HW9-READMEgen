@@ -1,6 +1,7 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
 
+
 inquirer
   .prompt([
     {
@@ -26,7 +27,7 @@ inquirer
     {
       type: "list",
       message: "What license should this README have?",
-      choices: ["[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)", "[![License: WTFPL](https://img.shields.io/badge/License-WTFPL-brightgreen.svg)](http://www.wtfpl.net/about/)", ""],
+      choices: ["[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)", "[![License: WTFPL](https://img.shields.io/badge/License-WTFPL-brightgreen.svg)](http://www.wtfpl.net/about/)"],
       name: "license",
     },
     {
@@ -91,9 +92,9 @@ ${response.questions}
 [Email Me](mailto:${response.email})
 `;
 
-    fs.writeFile("README1.md", genREADME, (err) =>
-      err ? console.error(err) : console.log("new README generated")
-    );
+fs.writeFile("README1.md", genREADME, (err) =>
+err ? console.error(err) : console.log("new README1.md generated")
+  );
     
     
   });
@@ -102,7 +103,7 @@ ${response.questions}
 
 
 
-  function license(response) {
+  license(response) {
     if (response.license === 0) {
       licenseDescription = "you chose MIT license"
     } else if (response.license === 1) {
