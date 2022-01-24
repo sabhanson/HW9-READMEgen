@@ -1,8 +1,8 @@
 
-# s [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+# HW9-README Generator  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
-s
+I created this README generator for a user to be able to easily create a new README in the built-in terminal with NodeJS. As a developer, I find myself making README files a lot, and thought there could be an easier way. A user can run this application and create a README to add to their next project.
 
 ## Table of Contents
 - [Installation](#installation)
@@ -13,21 +13,21 @@ s
 - [Questions](#questions)
 
 ## Installation
-s
+To install this README generator, you will need to create a clone of this repository. After that, you will want to open the repo in VSCode. You will need to have NPM installed to be able to run this application in the built-in terminal. You will need to right-click on the index.js file and open the built-in terminal. Then run the command "npm i inquirer" to install the inquirer package. After that, run the command "node index.js" to start generating a README. The README you generate will be titled "README1.md" as to not confuse it with the other README that may exist in your repository. Be mindful that each time you run this application, the previous data saved in README1.md will be overwritten. To prevent this, change the title of your README1.md to something more unique. I have also provided a link to a YouTube video explaining the usage of this application.
 
 ## Usage
-s
+Copy the stuff from above and change it.
 
 ## License
 undefined
 
 ## Contributing
-s
+To contribute, please contact me.
 
 ## Tests
-s
+Tested in VSCode terminal for errors and proper usage.
 
 ## Questions
-s  
-[Github profile](https://www.github.com/s)  
-[Email Me](mailto:s)
+Github or email is great.  
+[Github profile](https://www.github.com/sabhanson)  
+[Email Me](mailto:sabhanson7@gmail.com)
