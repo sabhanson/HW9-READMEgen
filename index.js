@@ -50,6 +50,11 @@ const fs = require('fs');
         message: 'What is your Github username?',
         name: 'github'
       },
+      {
+        type: 'input',
+        message: 'what is your email address?',
+        name: "email"
+      }
     ])
     .then((response)=> {
       const genREADME =
@@ -89,7 +94,7 @@ ${response.questions}
 <a href="https://www.github.com/${response.github}" target = "_blank"> visit my Github profile </a>
 
 ## Contact
-${response.email} must open the user's email app 'mailto:'
+[Email Me](mailto:${response.email})
 `;
 
 fs.writeFile('README1.md', genREADME, (err) =>

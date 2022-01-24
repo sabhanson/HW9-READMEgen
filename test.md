@@ -1,6 +1,7 @@
 # ${title}
 
-## ${description}
+## Description
+${description}
 
 ## Table of Contents
 - [Installation](#installation)
