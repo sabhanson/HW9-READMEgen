@@ -17,6 +17,8 @@ To install this README generator, you will need to create a clone of this reposi
 ## Usage
 Follow the Installation instructions above. Then you will be prompted with several questions that you will need to answer. The README you generate will be titled "README1.md" as to not confuse it with the other README.md that may exist in your repository. Be mindful that each time you run this application, the previous data saved in "README1.md" will be overwritten. To prevent this, change the title of your README1.md to something more unique. I have also provided a link to a YouTube video explaining the usage of this application.
 
+[Youtube Video of Usage](https://youtube.com)
+
 ## License
 MIT License
 
