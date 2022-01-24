@@ -78,7 +78,6 @@ ${response.installation}
 ${response.usage}
 
 ## License
-${licenseDescription}
 
 ## Contributing
 ${response.contributing}
@@ -103,12 +102,12 @@ err ? console.error(err) : console.log("new README1.md generated")
 
 
 
-  license(response) {
-    if (response.license === 0) {
-      licenseDescription = "you chose MIT license"
-    } else if (response.license === 1) {
-      licenseDescription = "you chose WTFPL license"
-    } else {
-      licenseDescription = "you chose "
-    }
-  }
+  // license(response) {
+  //   if (response.license === 0) {
+  //     licenseDescription = "you chose MIT license"
+  //   } else if (response.license === 1) {
+  //     licenseDescription = "you chose WTFPL license"
+  //   } else {
+  //     licenseDescription = "you chose "
+  //   }
+  // }
