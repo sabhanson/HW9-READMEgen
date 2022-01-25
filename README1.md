@@ -1,8 +1,8 @@
 
-# This is my title [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+# this is my title [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
-this is my description
+description is here
 
 ## Table of Contents
 - [Installation](#installation)
@@ -13,10 +13,10 @@ this is my description
 - [Questions](#questions)
 
 ## Installation
-installation instructions are here
+these are my installation instructions
 
 ## Usage
-this is how you use it
+use this how you please
 
 ## License
 <p>
@@ -45,10 +45,10 @@ MIT License
   </p>
 
 ## Contributing
-you cant
+please contact me first
 
 ## Tests
-yes i did
+no
 
 ## Questions
 github and email  
