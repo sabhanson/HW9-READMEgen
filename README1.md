@@ -2,7 +2,7 @@
 # This is my title [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
-This is my description. This is my description. jsdfjklasdjklfjklasdfjklasjkldfjkladsjklfjklasdjklfa jklsdlfja lsfa jkasdfjasjdfjkasdfjasdfasdjklfjsdjkfjklasdf
+this is my description
 
 ## Table of Contents
 - [Installation](#installation)
@@ -13,10 +13,10 @@ This is my description. This is my description. jsdfjklasdjklfjklasdfjklasjkldfj
 - [Questions](#questions)
 
 ## Installation
-klsdfjkasjklfjklasd fjklas jkldfjklswdafjjksdfjklasdjfjkas fjsjadfjajklsdsdfasfsdf asdfasdf asdfasd fsd
+installation instructions are here
 
 ## Usage
-dfasdfasdfasdfasd aerteartgadfgasdf
+this is how you use it
 
 ## License
 <p>
@@ -45,12 +45,12 @@ MIT License
   </p>
 
 ## Contributing
-asdjklfsdjklfajklsdklfjasd jklfjasdfjk;jsdka fjklsdjkfjk;as jklfjkl;sd;jkfjkl;asdf
+you cant
 
 ## Tests
-jklasdfjklasdjklfklasjdfjkl;sljfsd sfa edf sdf
+yes i did
 
 ## Questions
-Github and email  
+github and email  
 [Github profile](https://www.github.com/sabhanson)  
 [Email Me](mailto:sabhanson7@gmail.com)
