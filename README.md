@@ -1,7 +1,7 @@
 # HW9-README Generator  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
-I created this README generator for a user to be able to easily create a new README in the built-in terminal with NodeJS. As a developer, I find myself making README files a lot, and thought there could be an easier way. A user can run this application and create a README to add to their next project.
+I created this README generator for a user to be able to easily create a new README in the built-in terminal of VSCode with nodeJS. As a developer, I find myself making README files a lot, and thought there could be an easier way. A user can run this application and create a README to add to their next project without having to create the markdown format every time. They simply need to answer various prompts and their README will be generated. This is a very useful tool that I find myself using for every project.
 
 ## Table of Contents
 - [Installation](#installation)
@@ -12,11 +12,12 @@ I created this README generator for a user to be able to easily create a new REA
 - [Questions](#questions)
 
 ## Installation
-To install this README generator, you will need to create a clone of this repository. After that, you will want to open the repo in VSCode. You will need to have NPM installed to be able to run this application in the built-in terminal. You will need to right-click on the index.js file and open the built-in terminal. Then run the command "npm i inquirer" to install the inquirer package. After that, run the command "node index.js" to start generating a README. 
+To install this README generator, the user will need to create a clone of this repository and open it in VSCode. The user will need to have NPM installed to be able to run this application in the built-in terminal. 
+[for more information on installing npm](https://docs.npmjs.com/cli/v8/commands/npm-install)
+The user will need to right-click on the index.js file and select "open in integrated terminal". Then run the command "npm i inquirer" to install the inquirer package. After that, run the command "node index.js" to start generating a README. 
 
 ## Usage
-Follow the Installation instructions above. Then you will be prompted with several questions that you will need to answer. The README you generate will be titled "README1.md" as to not confuse it with the other README.md that may exist in your repository. Be mindful that each time you run this application, the previous data saved in "README1.md" will be overwritten. To prevent this, change the title of your README1.md to something more unique. I have also provided a link to a YouTube video explaining the usage of this application.
-
+The user will need to follow the Installation instructions above. Then they will be prompted with several questions. The README that is generated through the application will be titled "README1.md", as to not confuse it with the other README.md that exists in the repository. Be mindful that each time this application is run, the previous data saved in "README1.md" will be overwritten. I have provided a link to a YouTube video demoing the application installation, usage, and the README that is generated.
 [Youtube Video of Usage](https://youtu.be/qEkA4k5-JC4)
 
 ## License
